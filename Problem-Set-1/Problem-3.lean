@@ -1,7 +1,7 @@
 open Classical
 set_option linter.unusedVariables false
 
--- There's a much more concise way to prove this that doesn't
+-- There's a much more concise way to prove this
 -- but I wanted to structure it like a truth table
 
 theorem contrapositive : (p → q) ↔ (¬q → ¬p) :=
